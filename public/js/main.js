@@ -60,6 +60,8 @@ const getInfo =async(event)=>{
         }
         catch(err){
             city_name.innerText = "Please Enter the city name Properly";
+            temp_status.innerText = "";
+            temp_realVal.innerText = "";
         }
 
     }
